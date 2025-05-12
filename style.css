@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #222;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #555;
+  }
+  
+  .skills-grid, .projects-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .skill .bar {
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .skill .fill {
+    background: #007BFF;
+    height: 10px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+  }
+  .skill .fill {
+    width: 0;
+  }
+  
